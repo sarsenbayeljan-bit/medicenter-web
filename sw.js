@@ -1,5 +1,5 @@
 // MediCenter service worker: қосымша қабығын кэштейді (офлайн ашылады), деректер (Supabase) әрқашан желіден.
-const CACHE = 'medicenter-v2';
+const CACHE = 'medicenter-v3';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png'];
 
 self.addEventListener('install', (e) => {
